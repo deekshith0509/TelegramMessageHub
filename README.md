@@ -16,7 +16,7 @@ Caching is crucial in this project for several reasons:
 2. **Maintaining Hierarchical Structure:** To recreate the exact structure of messages in the target group, we need to forward them in the reverse order of how they were originally sent. Caching enables this by allowing us to process messages from oldest to newest.
 3. **Efficient Processing:** Caching allows for batch processing and checkpointing, making the transfer process more reliable and resumable in case of interruptions.
 
->  [If you dont want to Cache refer this](#direct-forwarding-without-caching)
+>  [If you dont want to Cache, refer this](#direct-forwarding-without-caching)
 
 
 ## Features
@@ -176,5 +176,4 @@ Contributions are welcome! If you have ideas for improvements or find any issues
 - Python's asyncio for asynchronous programming.
 
 Feel free to reach out with any questions or feedback!
-
 
