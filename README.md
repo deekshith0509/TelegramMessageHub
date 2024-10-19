@@ -157,7 +157,7 @@ strcuture
 
 ### **⚠️ Warning: API Limitations and Forwarding Constraints**
 > 
-> Please be aware that due to Telegram's API limitations, only approximately 1,800 messages can be forwarded per hour. If you attempt to forward more than 1,900 messages at a time, you may encounter issues due to these constraints.
+> Please be aware that due to Telegram's API limitations, only approximately 1,800 messages can be forwarded per hour. If you attempt to forward more than 1,800 messages at a time, you may encounter issues due to these constraints.
 > 
 > **Important Points to Note:**
 > - **Rate Limit**: The API restricts the number of messages that can be forwarded within an hour. This means that you will need to wait until the hour limit resets to continue forwarding additional messages.
