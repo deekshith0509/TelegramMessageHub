@@ -55,14 +55,14 @@ To get started, you will need:
 
    Clone the repository and navigate to the project directory:
 ```
-   git clone https://github.com/deekshith0509/TelegramMessageHub.git
-   cd TelegramMessageHub
+git clone https://github.com/deekshith0509/TelegramMessageHub.git
+cd TelegramMessageHub
 ```
 2. **Install Dependencies**
 
    Install the required Python packages:
 ```
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 3. **Configure Environment Variables**
 
@@ -74,9 +74,9 @@ To get started, you will need:
 
    You can set these variables in your terminal session or use a `.env` file with the python-dotenv package.
 ```
-   export appid=your_api_id
-   export hashid=your_api_hash
-   export number=your_phone_number
+export appid=your_api_id
+export hashid=your_api_hash
+export number=your_phone_number
 ````
 ## Usage
 
@@ -84,7 +84,7 @@ To get started, you will need:
 
 Run the following script to cache messages from your saved messages or a specific chat:
 ```
-    python telegram1.py
+python telegram1.py
 ```
 This script connects to Telegram, retrieves messages (including older ones not directly accessible), and stores them in JSON files in the `cached_batches` directory.
 
@@ -94,11 +94,11 @@ To forward cached messages to a target Telegram group, preserving the original s
 
 For normal groups:
 ```
-    python telegram2(normalgroup).py
+python telegram2(normalgroup).py
 ```
 For supergroups:
 ```
-    python telegram2(supergroup).py
+python telegram2(supergroup).py
 ```
 Note: Update the `group_id` variable in the respective script with the ID of the target group.
 
